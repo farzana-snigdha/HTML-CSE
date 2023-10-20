@@ -1,0 +1,192 @@
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #eaeaf1;
+    margin: 0;
+    padding: 0;
+		color:#000 !important;
+
+}
+
+.header {
+    background-color: #e7e7e7;
+    padding: 0;
+}
+
+.container-header-inner {
+	float: left; /* Position it on the left side */
+	width: 292px;
+	color:#000 !important;
+    background-color: #fff; /* White background */
+margin: 20px;
+margin-top:0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+	margin-left:0;
+}
+.title_bg{
+	padding:10px;
+    border: 1px solid #b4b4b4; /* Dark grey border around the ul */
+    border-bottom: 10px solid #196aab; /* Add a thin line below title_bg */
+}
+
+.title_bg h1 a {
+    text-decoration: none; /* Remove the underline from the link text */
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 50px; /* Adjust the height as needed */
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.form-search {
+    display: flex;
+}
+
+.form-control {
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.search-button {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.menu ul {
+	font-size: 16px;
+  list-style: none;
+    display: flex;
+    flex-direction: column; /* Display the menu items vertically */
+    margin: 0;
+	 padding: 0;
+    border: 1px solid #b4b4b4; /* Dark grey border around the ul */
+}
+
+.menu li {
+    position: relative;
+    border-bottom: 1px solid #b4b4b4; /* Black line after each menu item */
+    padding: 10px; /* Add space after each menu item */
+    color: #000 !important; /* Black text for menu items with !important */
+}
+
+.menu li:last-child {
+    border-bottom: none; /* Remove the line after the last item */
+}
+
+.menu .dropdown {
+    position: relative;
+	 color: #000 !important;
+}
+
+.menu .dropdown .dropdown-menu {
+	width: 220px;
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: #fff;
+	color:#000 !important;
+    padding: 10px;
+}
+
+.menu .dropdown:hover .dropdown-menu {
+	color:#000;
+    display: block;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000 !important;
+}
+.menu a:hover {
+    color: #196aab !important;
+	 font-weight: bold;
+}
+.menu .dropdown-menu a {
+    color: #000 !important;
+    display: block;
+    padding: 5px 0;
+}
+
+.menu .dropdown-menu a:hover {
+    color: #196aab !important;
+	 font-weight: bold;
+}
+.container .header-content .logo {
+    display: flex;
+    align-items: center; /* Vertically align content */
+    color: #fff !important;
+}
+.container .header-content .logo a {
+    color: #fff !important;
+}
+.container .header-content .logo .sub-title {
+    margin-left: 10px; /* Add some space between the image and the subtitle */
+}
+#top_heading {
+    background: #196aab;
+    border-bottom: 5px solid #f68b1f;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+section {
+    display: block;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background: #d6d7d7;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
