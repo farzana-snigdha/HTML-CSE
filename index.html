@@ -3,85 +3,172 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>My Basic Webpage</title>
 </head>
-<body class="body" data-new-gr-c-s-check-loaded="14.1133.0" data-gr-ext-installed>
-  <header id="header" class="clearfix">
-                        <section id="top_heading">
-        <div class="container">
-            <div class="header-content">
-                <div class="logo">
-                    <a href="https://cse.iutoic-dhaka.edu/" title="Islamic University of Technology">
-                        <img class="img-responsive" alt="IUT logo" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/IUT.png">
-                    </a>
-					<div class="sub-title" style="font-size: 25px;">Islamic University of Technology</div>
-                </div>
-                <div class="search">
-                    <form method="get" class="form-search" action="https://cse.uiu.ac.bd/">
-                        <input type="text" class="form-control search-query" placeholder="Search..." value="" name="s">
-                        <button type="submit" class="search-button" name="submit" id="searchsubmit">
-  <i class="fas fa-search"></i>
-  </button>
-                    </form>
+<body class="body">
+    <header id="header" class="clearfix">
+        <section id="top_heading">
+            <div class="container">
+                <div class="header-content">
+                    <div class="logo">
+                        <a href="https://cse.iutoic-dhaka.edu/" title="Islamic University of Technology">
+                            <img class="img-responsive" alt="IUT logo" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/IUT.png">
+                        </a>
+                        <div class="sub-title" style="font-size: 25px;">Islamic University of Technology</div>
+                    </div>
+                    <div class="search">
+                        <form method="get" class="form-search" action="https://cse.uiu.ac.bd/">
+                            <input type="text" class="form-control search-query" placeholder="Search..." value="" name="s">
+                            <button type="submit" class="search-button" name="submit" id="searchsubmit">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
-		
-
-		</section>
-       </header> 
-                       <section id="header-inner" class="slider">
-						
-				
-                <div class="container-header-inner">
-                   
-                        <div class=" col-lg-4 col-md-4 col-sm-12 col-xs-12 title_manu_bg manu">
-                        <div>    <div class="title_bg">
-                                <h3>Department of</h3>
-                                <h1><a href="https://cse.uiu.ac.bd/" title="Department of Computer Science and Engineering -UIU" rel="home"> COMPUTER SCIENCE AND ENGINEERING</a></h1>
-								</div>
-                               
-                        
-                            
- <div class="menu">
-                    <ul>
-                        <li class="dropdown">
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#">Bachelors of Science </a> <i class="fa-solid fa-arrow-right" style="float: right;"></i>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">B.Sc. in CSE</a></li>
-                                <li><a href="#">B.Sc. in SWE</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#">Masters of Science</a> <i class="fa-solid fa-arrow-right" style="float: right;"></i>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Option 1</a></li>
-                                <li><a href="#">Option 2</a></li>
-                                <li><a href="#">Option 3</a></li>
-                                <li><a href="#">Option 4</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#">PhD. in CSE</a>
-                            
-                        </li>
-                    </ul>
-                </div>
-
-
-
-						
-                        </div>
-                       
-                      
+        </section>
+    </header>
+    <section id="header-inner" class="slider">
+        <div class="container-header-inner">
+            <div class="options">
+                <div class="title_menu_bg">
+                    <div class="title_bg">
+                        <h3 id="title">Department of</h3>
+                        <h1>
+                            <a href="https://cse.iutoic-dhaka.edu/" title="Department of Computer Science and Engineering -IUT" rel="home">
+                                COMPUTER SCIENCE AND ENGINEERING
+                            </a>
+                        </h1>
                     </div>
-               
-          </section>
-  		<script src="script.js"></script> 
+                    <div class="menu">
+                        <ul>
+                            <li class="dropdown">
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#">Bachelors of Science</a> <i class="fa-solid fa-arrow-right" style="float: right;"></i>
+                                <ul class="dropdown-menu">
+									<li class="dropdown bsc-cse"><a href="#" id="bsc-cse-link">B.Sc. in CSE</a></li>
+                                    <li class="dropdown bsc-swe"><a href="#" id="bsc-swe-link">B.Sc. in SWE</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#">Masters of Science</a> <i class="fa-solid fa-arrow-right" style="float: right;"></i>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Option 1</a></li>
+                                    <li><a href="#">Option 2</a></li>
+                                    <li><a href="#">Option 3</a></li>
+                                    <li><a href="#">Option 4</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#">PhD. in CSE</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="horizontal-menu" id="general-menu">
+                    <ul class="tab-bar">
+                        <li class="tab active" data-content="prog_req">Program Requirement</li>
+                        <li class="tab" data-content="description">Description</li>
+                        <li class="tab" data-content="calendar">Calendar</li>
+                        <li class="tab" data-content="admission">Admission</li>
+                        <li class="tab" data-content="m_and_v">Mission & Vision</li>
+                    </ul>
+                    
+                    <div class="tab-content" id="prog_req">
+                        <h3 id="prog_req_content">Program Requirements</h3>
+                    </div>
+           
+                    <div class="tab-content" id="description">
+                        <h3>Description</h3>
+                    </div>
+					<div class="tab-content" id="description_cse">
+                        <h3>Description  for B.Sc. in CSE</h3>
+                    </div>
+                    
+                    <div class="tab-content" id="calendar">
+                        <h3>Calendar</h3>
+                        <!-- Content for Calendar -->
+                        <!-- Add your content here -->
+                    </div>
+                    
+                    <div class="tab-content" id="admission">
+                        <h3>Admission</h3>
+                        <!-- Content for Admission -->
+                        <!-- Add your content here -->
+                    </div>
+                    
+                    <div class="tab-content" id="m_and_v">
+                        <h3>Mission & Vision</h3>
+                        <!-- Content for Mission & Vision -->
+                        <!-- Add your content here -->
+                    </div>
+                </div>
+				  <div class="horizontal-menu" id="cse-menu" style="display: none;">
+                    <!-- CSE Horizontal Menu -->
+                    <ul class="tab-bar">
+                        <li class="tab active" data-content="prog_req_cse">Program Requirement</li>
+                        <li class="tab" data-content="description_cse">Description</li>
+                        <li class="tab" data-content="calendar_cse">Calendar</li>
+                        <li class="tab" data-content="admission_cse">Admission</li>
+                        <li class="tab" data-content="m_and_v_cse">Mission & Vision</li>
+                    </ul>
+                    <div class="tab-content" id="prog_req_cse">
+                        <h3 id="prog_req_content_cse">Program Requirements for B.Sc. in CSE</h3>
+                    </div>
+                    <div class="tab-content" id="description_cse">
+                        <h3>Description for B.Sc. in CSE</h3>
+                    </div>
+                    <div class="tab-content" id="calendar_cse">
+                        <h3>Calendar for B.Sc. in CSE</h3>
+                        <!-- Content for Calendar -->
+                        <!-- Add your content here -->
+                    </div>
+                    <div class="tab-content" id="admission_cse">
+                        <h3>Admission for B.Sc. in CSE</h3>
+                        <!-- Content for Admission -->
+                        <!-- Add your content here -->
+                    </div>
+                    <div class="tab-content" id="m_and_v_cse">
+                        <h3>Mission & Vision for B.Sc. in CSE</h3>
+                        <!-- Content for Mission & Vision -->
+                        <!-- Add your content here -->
+                    </div>
+                </div>
+		  <div class="horizontal-menu" id="swe-menu" style="display: none;">
+                    <!-- CSE Horizontal Menu -->
+                    <ul class="tab-bar">
+                        <li class="tab active" data-content="prog_req_swe">Program Requirement</li>
+                        <li class="tab" data-content="description_swe">Description</li>
+                        <li class="tab" data-content="calendar_swe">Calendar</li>
+                        <li class="tab" data-content="admission_swe">Admission</li>
+                        <li class="tab" data-content="m_and_v_swe">Mission & Vision</li>
+                    </ul>
+                    <div class="tab-content" id="prog_req_swe">
+                        <h3 id="prog_req_content_cse">Program Requirements for B.Sc. in SWE</h3>
+                    </div>
+                    <div class="tab-content" id="description_swe">
+                        <h3>Description for B.Sc. in SWE</h3>
+                    </div>
+                    <div class="tab-content" id="calendar_swe">
+                        <h3>Calendar for B.Sc. in SWE</h3>
+                        <!-- Content for Calendar -->
+                        <!-- Add your content here -->
+                    </div>
+                    <div class="tab-content" id="admission_swe">
+                        <h3>Admission for B.Sc. in SWE</h3>
+                    </div>
+                    <div class="tab-content" id="m_and_v_swe">
+                        <h3>Mission & Vision for B.Sc. in SWE</h3>
+                    </div>
+                </div>
+                
+		</div>
+        </div>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>
