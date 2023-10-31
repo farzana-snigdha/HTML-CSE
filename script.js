@@ -50,16 +50,20 @@ document.addEventListener("DOMContentLoaded", function () {
     const cseMenu = document.getElementById("cse-menu");
     const bscCseLink = document.getElementById("bsc-cse-link");
 
+
+	const sweMenu = document.getElementById("swe-menu");
+    const bscSweLink = document.getElementById("bsc-swe-link");
+
+
     // Add a click event listener to the "B.Sc. in CSE" link
     bscCseLink.addEventListener("click", function (event) {
         event.preventDefault(); // Prevent the default link behavior
         generalMenu.style.display = "none"; // Hide the general menu
         cseMenu.style.display = "block"; // Show the CSE menu
+        sweMenu.style.display = "none"; // Hide the general menu
      });
 	
 	
-	const sweMenu = document.getElementById("swe-menu");
-    const bscSweLink = document.getElementById("bsc-swe-link");
 
     // Add a click event listener to the "B.Sc. in CSE" link
     bscSweLink.addEventListener("click", function (event) {
